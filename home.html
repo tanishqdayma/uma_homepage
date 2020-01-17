@@ -17,10 +17,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="css/load-more-button.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/load-more-button.js"></script>
-
+    <link rel="stylesheet" href="css/image.css" type="text/css">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -46,39 +43,21 @@
     <header class="header-section">
         <div class="header-top">
             <div class="container">
-                <div class="ht-left">
-                    <div class="mail-service">
-                        <!-- <i class=" fa fa-envelope"></i>
-                        hello.colorlib@gmail.com -->
-                        <h2 style="size:35;text-align:center;color:brown;font:simplifica"><b>UNNAT MAHARASHTRA ABHIYAN</b></h2><br>
-                        <h6 style="size:5;text-align:center;">तकनीकी संस्थाओं का ज्ञान - स्वैच्छिक संगठनों का अनुभव - सरकार के संसाधन<br>
-                          सभी को मिलाकर गांवों के विकास के लिए</h6>
-                    </div>
-                    <div class="phone-service">
-                        <!-- <i class=" fa fa-phone"></i>
-                        +65 11.188.888 -->
-
-                    </div>
+              <div class="row2 mt-2">
+                <div class="col-2 text-center headerlogo">
+                    <a href="">
+                      <img src="img/logo_iit.png" class="img-fluid"> </a>
                 </div>
-                <!-- <div class="ht-right">
-                    <a href="#" class="login-panel"><i class="fa fa-user"></i>Login</a>
-                    <div class="lan-selector">
-                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
-                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
-                                data-title="English">English</option>
-                            <option value='yu' data-image="img/flag-2.jpg" data-imagecss="flag yu"
-                                data-title="Bangladesh">German </option>
-                        </select>
-                    </div> -->
-                    <div class="logo_iit">
-                        <!-- <a href="#"><i class="ti-facebook"></i></a>
-                        <a href="#"><i class="ti-twitter-alt"></i></a>
-                        <a href="#"><i class="ti-linkedin"></i></a>
-                        <a href="#"><i class="ti-pinterest"></i></a> -->
-                        <img height="100" width="100" src="img/logo_iit.png">
-                    </div>
+
+                 <div class="col-8">
+                      <h2 class="text-center" style="text-align:center;color:brown;font:simplifica"><b>UNNAT MAHARASHTRA ABHIYAN</b></h2><br>
+
+                          <p class="text-center headersloganmob px-2" style="text-align:center;">तकनीकी संस्थाओं का ज्ञान - स्वैच्छिक संगठनों का अनुभव - सरकार के संसाधन सभी को मिलाकर गांवों के विकास के लिए</p>
+                </div>
+
                 </div>
             </div>
+          </div>
         <!-- </div> -->
         <!-- <div class="container">
             <div class="inner-header">
@@ -125,7 +104,7 @@
                         </li>
                     </ul>
                 </nav>
-                <!-- <div id="mobile-menu-wrap"></div> -->
+                <div id="mobile-menu-wrap"></div>
             </div>
         </div>
     </header>
@@ -177,7 +156,7 @@
             <!-- <div style="width: 60%; float:left;" id="aboutus"> -->
 
             <!-- <div class="col-lg-6 text-center"> -->
-            <div class="col-md-6">
+            <div class="col-md-6" id="aboutus">
                 <!-- <div class="section-title">
                     <h2>List of all the Participating Institutes</h2>
                     <div class="icon">
@@ -188,8 +167,17 @@
                 </div> -->
                 <div class="section-title">
                     <h2>Vision and Mission</h2>
-                    <div class="">
-                    <p>UMA is a project of the Ministry of Higher and Technical Education. Its mandate is to build an independent and public knowledge infrastructure for the state of Maharashtra which will bring socio-economic and cultural development for its people, especially those in the bottom 80% of the socio-economic strata.</p>
+                    <div class="" align="justify">
+                    <p class="text-center headersloganmob px-2" align="justify">
+                    Unnat Maharashtra Abhiyan (UMA) is a project of the Ministry of Higher and Technical Education. Its mandate is to build an independent and public knowledge infrastructure for the state of Maharashtra which will bring socio-economic and cultural development for its people, especially those in the bottom 80% of the socio-economic strata. UMA aligns closely with the Unnat Bharat Abhiyan (UBA) mechanism of the Ministry of Human Resource Development, Government of India, whose vision is to bring about "transformational change in rural development processes by leveraging knowledge institutions to help build the architecture of an Inclusive India".<br>
+
+                    UBA is being operationalised through the UMA, since they both share the same objectives :
+                    <ul>
+                    <li><p>To seek some alignment of curricula and research with regional development needs.</p></li>
+                    <li><p>Re-emphasize field-work and case-studies as an important pedagogy</p></li>
+                    <li><p>Provide a formal mechanism for local bodies such as Zilla Parishads, Gram Panchayats, etc. to access a regional engineering college, including the IITs, for its knowledge needs, and to obtain funding and data for the same.</p></li>
+                    </ul>
+                  </p>
                     <!-- <div class="product-price">
                         $35.00
                         <span>/ HanBag</span>  -->
@@ -200,13 +188,13 @@
 
     <!-- <div style="width: 40%; float:left" id="importantlinks"> -->
       <!-- <div class="container"> -->
-<div class="col-md-6">
+<div class="col-md-6" id="importantlinks">
             <!-- <div class="col-lg-6 text-center"> -->
             <div class="section-title">
               <h2>Important Links</h2>
 
-              <div id="marqueecontainer">
-                <div id="vmarquee" style="position:absolute; width: 100%;">
+              <!-- <div id="marqueecontainer"> -->
+                <!-- <div id="vmarquee" style="position:absolute; width: 100%;"> -->
                   <!-- <p class="lead"><i class="fa fa-caret-right colorgrey" aria-hidden="true"></i> Ministries / Departments </p><span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span> -->
                   <marquee direction="up" onmouseover="stop()" onmouseout="start()" scrollamount="5">
                   <ul class="link">
@@ -223,8 +211,8 @@
                     <li><a href="http://rural.nic.in/departments/state-departments" target="_blank">State Departments</a></li>
                   </ul>
                 </marquee>
-                </div>
-              </div>
+                <!-- </div> -->
+              <!-- </div> -->
 
             </div>
             </div>
@@ -364,102 +352,99 @@
                       </div>
                     </div>
                     <div class="product-slider owl-carousel">
-                        <div class="product-item">
+
+                      <div class="product-item">
                             <div class="pi-pic">
-                                <img src="img/products/man-1.jpg" alt="">
-                                <div class="sale">Sale</div>
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="catagory-name">Coat</div>
-                                <a href="#">
-                                    <h5>Pure Pineapple</h5>
-                                </a>
-                                <div class="product-price">
-                                    $14.00
-                                    <span>$35.00</span>
-                                </div>
+                              <img id="myImg" src="img/products/man-1.jpg" alt="Snow">
+
+                              <!-- The Modal -->
+                              <div id="myModal" class="modal">
+                              <span class="close">&times;</span>
+                              <img class="modal-content" id="img01">
+                              </div>
+
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="img/products/man-2.jpg" alt="">
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="catagory-name">Shoes</div>
-                                <a href="#">
-                                    <h5>Guangzhou sweater</h5>
-                                </a>
-                                <div class="product-price">
-                                    $13.00
-                                </div>
+                              <img id="myImg" src="img/products/man-2.jpg" alt="Snow">
+
+                              <!-- The Modal -->
+                              <div id="myModal" class="modal">
+                              <span class="close">&times;</span>
+                              <img class="modal-content" id="img01">
+                              </div>
+
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="img/products/man-3.jpg" alt="">
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="pi-text">
-                                <div class="catagory-name">Towel</div>
-                                <a href="#">
-                                    <h5>Pure Pineapple</h5>
-                                </a>
-                                <div class="product-price">
-                                    $34.00
-                                </div>
+                              <img id="myImg" src="img/products/man-3.jpg" alt="Snow">
+
+                              <!-- The Modal -->
+                              <div id="myModal" class="modal">
+                              <span class="close">&times;</span>
+                              <img class="modal-content" id="img01">
+                              </div>
+
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="img/products/man-4.jpg" alt="">
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
-                                <ul>
-                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
-                                </ul>
+                              <img id="myImg" src="img/products/man-4.jpg" alt="Snow">
+
+                              <!-- The Modal -->
+                              <div id="myModal" class="modal">
+                              <span class="close">&times;</span>
+                              <img class="modal-content" id="img01">
+                              </div>
+
                             </div>
-                            <div class="pi-text">
-                                <div class="catagory-name">Towel</div>
-                                <a href="#">
-                                    <h5>Converse Shoes</h5>
-                                </a>
-                                <div class="product-price">
-                                    $34.00
-                                </div>
-                            </div>
+
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- <div class="product-slider owl-carousel">
+
+      <div class="product-item">
+            <div class="pi-pic">
+              <img id="myImg" src="img/products/man-2.jpg" alt="Snow">
+
+              <!-- The Modal -->
+              <!-- <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img01">
+              </div>
+
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="pi-pic">
+                <img src="img/products/man-2.jpg" alt="">
+
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="pi-pic">
+                <img src="img/products/man-3.jpg" alt="">
+
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="pi-pic">
+                <img src="img/products/man-4.jpg" alt="">
+
+            </div>
+
+        </div>
+    </div> -->
+
+
 
 <section class="deal-of-week set-bg spad" >
     <div class="featured_candidates_area">
@@ -568,6 +553,11 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/load-more-button.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 </body>
 
 </html>
