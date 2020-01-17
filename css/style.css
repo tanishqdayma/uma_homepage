@@ -299,6 +299,63 @@ ol {
 	margin:auto;
 }
 
+.mt-2{
+	margin-top: .5rem!important;
+}
+
+.row2{
+	display:flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.mt-2 .row2 .headerlogo{
+	margin-top: 0;
+	margin-bottom: lrem;
+	margin-block-start: lem;
+	margin-block-end: lem;
+	margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 425px)
+.headerlogo {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.text-center{
+	text-align:center!important;
+}
+
+.col-2{
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+}
+
+.col-8 {
+	flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 15px;
+  padding-left: 15px;
+}
+
+.img-fluid{
+	max-width:100%;
+	height:auto;
+}
+
+.img{
+	vertical-align: middle;
+	border-style:none;
+}
+
 .ht-right .lan-selector .ddcommon .ddTitle .ddArrow:before {
 	content: "3";
 	font-family: "ElegantIcons";
@@ -678,6 +735,11 @@ ol {
 	text-align: center;
 	margin:0 auto !important;
 	/*padding:0 !important;*/
+}
+
+.mobile-menu-wrap{
+	padding-top: 15px;
+	position: relative;
 }
 
 .nav-item .nav-depart {
