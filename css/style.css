@@ -903,6 +903,10 @@ ol {
 	display: none;
 }
 
+
+/* New Navbar */
+
+
 /*---------------------
   Hero Section
 -----------------------*/
@@ -1400,6 +1404,11 @@ ol {
 	flex: 0 0 50%;
 	max-width: 50%;
 	list-style-type: disc;
+}
+
+.my_style{
+	text-align:justify;
+    text-justify:inter-word;
 }
 
 .vmarquee ul li:before{
