@@ -1408,15 +1408,17 @@ ol {
 
 .my_style{
 	text-align:justify;
-    text-justify:inter-word;
+	text-justify:inter-word;
+	margin-left:10px;
 }
 
 .vmarquee ul li:before{
     content:"• ";
 }
-
+/* ******* */
 .link li{
-	font-size: 100%;
+	font-size: small;
+	margin-left:20%;
 }
 
 .countdown-timer {
